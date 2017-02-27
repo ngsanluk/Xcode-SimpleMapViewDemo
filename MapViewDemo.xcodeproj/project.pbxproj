@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3853DD701E6493E90032E393 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3853DD6F1E6493E90032E393 /* README.md */; };
 		387AF8581E63D7D60057EAF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387AF8571E63D7D60057EAF8 /* AppDelegate.swift */; };
 		387AF85A1E63D7D60057EAF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387AF8591E63D7D60057EAF8 /* ViewController.swift */; };
 		387AF85D1E63D7D60057EAF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387AF85B1E63D7D60057EAF8 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3853DD6F1E6493E90032E393 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		387AF8541E63D7D60057EAF8 /* MapViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		387AF8571E63D7D60057EAF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		387AF8591E63D7D60057EAF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 		387AF84B1E63D7D50057EAF8 = {
 			isa = PBXGroup;
 			children = (
+				3853DD6F1E6493E90032E393 /* README.md */,
 				387AF8561E63D7D60057EAF8 /* MapViewDemo */,
 				387AF8551E63D7D60057EAF8 /* Products */,
 			);
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3853DD701E6493E90032E393 /* README.md in Resources */,
 				387AF8621E63D7D60057EAF8 /* LaunchScreen.storyboard in Resources */,
 				387AF85F1E63D7D60057EAF8 /* Assets.xcassets in Resources */,
 				387AF85D1E63D7D60057EAF8 /* Main.storyboard in Resources */,
@@ -299,6 +303,7 @@
 				387AF8681E63D7D60057EAF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
