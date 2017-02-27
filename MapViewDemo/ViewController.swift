@@ -41,9 +41,8 @@ class ViewController: UIViewController, MKMapViewDelegate{
     @IBAction func zoomIn(_ sender: Any) {
         let userLocation = mapView.userLocation
         // Defining a smaller targeted span means zooming in
-        let newSpan = MKCoordinateSpanMake(
-            mapView.region.span.latitudeDelta * 0.5,
-                        mapView.region.span.longitudeDelta * 0.5)
+        let newSpan = MKCoordinateSpan(latitudeDelta: mapView.region.span.latitudeDelta * 0.5,
+                                       longitudeDelta: mapView.region.span.longitudeDelta * 0.5)
         let newRegion = MKCoordinateRegion(
             center: userLocation.location!.coordinate,
             span: newSpan
@@ -55,9 +54,8 @@ class ViewController: UIViewController, MKMapViewDelegate{
     @IBAction func zoomOut(_ sender: Any) {
         let userLocation = mapView.userLocation
         // Defining a bigger targeted span means zooming out
-        let newSpan = MKCoordinateSpanMake(
-            mapView.region.span.latitudeDelta * 2,
-            mapView.region.span.longitudeDelta * 2)
+        let newSpan = MKCoordinateSpan(latitudeDelta: mapView.region.span.latitudeDelta * 2,
+                                       longitudeDelta: mapView.region.span.longitudeDelta * 2)
         let newRegion = MKCoordinateRegion(
             center: userLocation.location!.coordinate,
             span: newSpan
